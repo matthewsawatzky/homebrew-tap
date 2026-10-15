@@ -1,27 +1,27 @@
 class Shrink < Formula
   desc "CLI media compression tool: video, images and audio via ffmpeg"
   homepage "https://github.com/matthewsawatzky/shrink"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
   depends_on "ffmpeg"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/matthewsawatzky/shrink/releases/download/v0.2.0/shrink-v0.2.0-darwin-amd64.tar.gz"
-      sha256 "7869d910242432945cd6c08df75a6c9fa1fea5ad803c569fbec5aa01fda2bf9a"
+      url "https://github.com/matthewsawatzky/shrink/releases/download/v0.3.0/shrink-v0.3.0-darwin-amd64.tar.gz"
+      sha256 "3d64e98ad26eec3c6bc3963f059ce6655207d9f0697a11d9902f55d42305baab"
     else
-      url "https://github.com/matthewsawatzky/shrink/releases/download/v0.2.0/shrink-v0.2.0-darwin-arm64.tar.gz"
-      sha256 "be66de1e2303daa83b1e47049726f689245e3035423296f7ce3759d6ff1fbe6b"
+      url "https://github.com/matthewsawatzky/shrink/releases/download/v0.3.0/shrink-v0.3.0-darwin-arm64.tar.gz"
+      sha256 "532b3f9a11395357d623c3a5a68c3bc4c92d9be55bde916769d7e6d198a58b8c"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/matthewsawatzky/shrink/releases/download/v0.2.0/shrink-v0.2.0-linux-amd64.tar.gz"
-      sha256 "449c8c4314c8c9883460714a045b9e950d43786f7e1d2a75e0da327268a02240"
+      url "https://github.com/matthewsawatzky/shrink/releases/download/v0.3.0/shrink-v0.3.0-linux-amd64.tar.gz"
+      sha256 "886956b812795d9eabe62803892fd264eaf4c3c85e529737688845698d719bc8"
     else
-      url "https://github.com/matthewsawatzky/shrink/releases/download/v0.2.0/shrink-v0.2.0-linux-arm64.tar.gz"
-      sha256 "80b580b3f6c3d0c855abe2514cbf7f5a16de5ebc16da93c9912543b9b75f8e77"
+      url "https://github.com/matthewsawatzky/shrink/releases/download/v0.3.0/shrink-v0.3.0-linux-arm64.tar.gz"
+      sha256 "ab3b30f6b7a573e34aa5fa8b43f44aa557e5cd44c4e61b460f7cf30aaf0a85c2"
     end
   end
 
